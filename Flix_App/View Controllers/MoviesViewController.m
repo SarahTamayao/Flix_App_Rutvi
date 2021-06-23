@@ -6,8 +6,12 @@
 //
 
 #import "MoviesViewController.h"
+#import "MovieCell.h"
 
-@interface MoviesViewController ()
+@interface MoviesViewController () <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSArray *movies;
+
 
 @end
 
@@ -15,6 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
+    
     // Do any additional setup after loading the view.
     
     NSURL *url = [NSURL URLWithString:@"https://api.themoviedb.org/3/movie/now_playing?api_key=bc576bd97242828b55b4c70fc10e4f3a&language=en-US&page=1"];
@@ -26,7 +33,13 @@
            }
            else {
                NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+               NSLog(@"%@", dataDictionary);
 
+               self.movies = dataDictionary[@"results"];
+               for (NSDictionary *movie in self.movies){
+                   NSLog(@"%@", movie[@"title"]);
+               }
+               [self.tableView reloadData];
                // TODO: Get the array of movies
                // TODO: Store the movies in a property to use elsewhere
                // TODO: Reload your table view data
@@ -34,7 +47,21 @@
        }];
     [task resume];
 }
-
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.movies.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    MovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MovieCell"];
+    
+    //NSLog(@"%@", [NSString stringWithFormat:@"row: %d, section %d", indexPath.row, indexPath.section]);
+    NSDictionary *movie = self.movies[indexPath.row];
+    cell.titleLabel = movie[@"title"];
+    cell.synopsisLabel = movie[@"overview"];
+                            
+    //cell.textLabel.text = movie[@"title"];
+    
+    return cell;
+}
 /*
 #pragma mark - Navigation
 

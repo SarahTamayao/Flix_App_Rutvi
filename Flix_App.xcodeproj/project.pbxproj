@@ -16,6 +16,7 @@
 		492C283326838923007294F3 /* Flix_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C283226838923007294F3 /* Flix_AppTests.m */; };
 		492C283E26838923007294F3 /* Flix_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C283D26838923007294F3 /* Flix_AppUITests.m */; };
 		492C284D268398DC007294F3 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C284C268398DC007294F3 /* MoviesViewController.m */; };
+		492C28542683BCB7007294F3 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C28532683BCB7007294F3 /* MovieCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		492C283F26838923007294F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492C284B268398DC007294F3 /* MoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
 		492C284C268398DC007294F3 /* MoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		492C28522683BCB7007294F3 /* MovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MovieCell.h; path = Flix_App/Views/MovieCell.h; sourceTree = SOURCE_ROOT; };
+		492C28532683BCB7007294F3 /* MovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MovieCell.m; path = Flix_App/Views/MovieCell.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 		492C285026839B2C007294F3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				492C28522683BCB7007294F3 /* MovieCell.h */,
+				492C28532683BCB7007294F3 /* MovieCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				492C281826838922007294F3 /* AppDelegate.m in Sources */,
+				492C28542683BCB7007294F3 /* MovieCell.m in Sources */,
 				492C284D268398DC007294F3 /* MoviesViewController.m in Sources */,
 				492C282926838923007294F3 /* main.m in Sources */,
 				492C281B26838922007294F3 /* SceneDelegate.m in Sources */,
