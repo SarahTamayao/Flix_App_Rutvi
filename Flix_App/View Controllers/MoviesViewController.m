@@ -55,8 +55,8 @@
     
     //NSLog(@"%@", [NSString stringWithFormat:@"row: %d, section %d", indexPath.row, indexPath.section]);
     NSDictionary *movie = self.movies[indexPath.row];
-    cell.titleLabel = movie[@"title"];
-    cell.synopsisLabel = movie[@"overview"];
+    cell.titleLabel.text = movie[@"title"];
+    cell.synopsisLabel.text = movie[@"overview"];
                             
     //cell.textLabel.text = movie[@"title"];
     
