@@ -8,19 +8,20 @@
 #import "MoviesViewController.h"
 #import "MovieCell.h"
 #import "UIImageView+AFNetworking.h"
+#import "SVProgressHUD.h"
 #import "DetailsViewController.h"
 
 @interface MoviesViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *movies;
 @property (nonatomic, strong) UIRefreshControl *refreshControl;
-
 @end
 
 @implementation MoviesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
@@ -33,14 +34,22 @@
     
 }
 -(void) fetchMovies{
+    [SVProgressHUD show];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Cannot Get Movies" message:@"The internet connectino appears to be offline" preferredStyle:(UIAlertControllerStyleAlert)];
+    UIAlertAction *tryAgain = [UIAlertAction actionWithTitle:@"Try Again" style:(UIAlertActionStyleCancel) handler:^(UIAlertAction *_Nonnull action){
+        [self fetchMovies];
+    }];
+    [alert addAction:tryAgain];
     NSURL *url = [NSURL URLWithString:@"https://api.themoviedb.org/3/movie/now_playing?api_key=bc576bd97242828b55b4c70fc10e4f3a&language=en-US&page=1"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10.0];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:nil delegateQueue:[NSOperationQueue mainQueue]];
     NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (error != nil) {
+            [self presentViewController:alert animated:YES completion: ^{}];
             NSLog(@"%@", [error localizedDescription]);
         }
        else {
+           [SVProgressHUD dismiss];
            NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
            NSLog(@"%@", dataDictionary);
 
