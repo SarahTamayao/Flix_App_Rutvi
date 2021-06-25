@@ -39,7 +39,7 @@
     //rest of the properties
     self.titleLabel.text = self.movie[@"title"];
     self.synopsisLabel.text = self.movie[@"overview"];
-    self.ratingLabel.text = [NSString stringWithFormat:@"%@", self.movie[@"vote_average"]];
+    self.ratingLabel.text = [NSString stringWithFormat:@"%@/%@", self.movie[@"vote_average"], @"10"];
     
     //fix style
     [self.titleLabel sizeToFit];

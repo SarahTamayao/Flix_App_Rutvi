@@ -13,9 +13,7 @@
 
 @interface MoviesViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (nonatomic, strong) NSArray *movies;
-@property (nonatomic, strong) NSArray *filteredData;
 @property (nonatomic, strong) UIRefreshControl *refreshControl;
 @end
 
@@ -26,7 +24,6 @@
     
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
-    self.searchBar.delegate = self;
     
     [self fetchMovies];
     self.refreshControl = [[UIRefreshControl alloc] init];
@@ -118,16 +115,7 @@
     
     return cell;
 }
--(void)searchBar: (UISearchBar *)searchBar textDidChange:(NSString *)searchText{
-    if(searchText.length != 0){
-        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(title CONTAINS[CD] %@)", searchText];
-        self.filteredData = [self.movies filteredArrayUsingPredicate:predicate];
-        //NSLog(@"%@", self.filteredData);
-    }else{
-        self.filteredData = self.movies;
-    }
-    [self.tableView reloadData];
-}
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
