@@ -13,7 +13,9 @@
 
 @interface MoviesViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 @property (nonatomic, strong) NSArray *movies;
+@property (nonatomic, strong) NSArray *filteredData;
 @property (nonatomic, strong) UIRefreshControl *refreshControl;
 @end
 
@@ -24,6 +26,7 @@
     
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
+    self.searchBar.delegate = self;
     
     [self fetchMovies];
     self.refreshControl = [[UIRefreshControl alloc] init];
@@ -32,7 +35,10 @@
     
     [self.tableView insertSubview:self.refreshControl atIndex: 0];
     
+    
+    
 }
+
 -(void) fetchMovies{
     [SVProgressHUD show];
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Cannot Get Movies" message:@"The internet connectino appears to be offline" preferredStyle:(UIAlertControllerStyleAlert)];
@@ -54,16 +60,16 @@
            NSLog(@"%@", dataDictionary);
 
            self.movies = dataDictionary[@"results"];
-           for (NSDictionary *movie in self.movies){
-               NSLog(@"%@", movie[@"title"]);
-           }
            [self.tableView reloadData];
            // TODO: Get the array of movies
            // TODO: Store the movies in a property to use elsewhere
            // TODO: Reload your table view data
        }
         [self.refreshControl endRefreshing];
+        
+        
     }];
+    
     [task resume];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -82,15 +88,46 @@
     
     NSString *posterURLString = movie[@"poster_path"];
     NSString *fullPosterURLString = [baseURLString stringByAppendingString:posterURLString];
-    
     NSURL *posterURL = [NSURL URLWithString:fullPosterURLString];
     
-    cell.posterView.image = nil;
-    [cell.posterView setImageWithURL:posterURL];
+    NSURLRequest *request = [NSURLRequest requestWithURL:posterURL];
+
+    __weak MovieCell *weakSelf = cell;
+    [cell.posterView setImageWithURLRequest:request placeholderImage:nil
+                                    success:^(NSURLRequest *imageRequest, NSHTTPURLResponse *imageResponse, UIImage *image) {
+
+                                        // imageResponse will be nil if the image is cached
+                                        if (imageResponse) {
+                                            NSLog(@"Image was NOT cached, fade in image");
+                                            weakSelf.posterView.alpha = 0.0;
+                                            weakSelf.posterView.image = image;
+
+                                            //Animate UIImageView back to alpha 1 over 0.3sec
+                                            [UIView animateWithDuration:0.3 animations:^{
+                                                weakSelf.posterView.alpha = 1.0;
+                                            }];
+                                        }
+                                        else {
+                                            NSLog(@"Image was cached so just update the image");
+                                            weakSelf.posterView.image = image;
+                                        }
+                                    }
+                                    failure:^(NSURLRequest *request, NSHTTPURLResponse * response, NSError *error) {
+                                        // do something for the failure condition
+                                    }];
     
     return cell;
 }
-
+-(void)searchBar: (UISearchBar *)searchBar textDidChange:(NSString *)searchText{
+    if(searchText.length != 0){
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(title CONTAINS[CD] %@)", searchText];
+        self.filteredData = [self.movies filteredArrayUsingPredicate:predicate];
+        //NSLog(@"%@", self.filteredData);
+    }else{
+        self.filteredData = self.movies;
+    }
+    [self.tableView reloadData];
+}
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
