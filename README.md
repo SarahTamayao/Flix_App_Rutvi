@@ -31,9 +31,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] User can view movie ratings
-- [ ] User can view the trailer of the movie in the app
-- [ ] User can determine which movie they last selected on the 'Now Playing' tab
+- [x] User can view movie ratings
+- [x] User can view the trailer of the movie in the app
+- [x] User can determine which movie they last selected on the 'Now Playing' tab
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -44,7 +44,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-
+![](Flix_Four.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
