@@ -43,6 +43,8 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
+
 ![](Flix_OneA.gif)
 ![](Flix_TwoA.gif)
 ![](Flix_ThreeA.gif)
