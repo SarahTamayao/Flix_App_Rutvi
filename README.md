@@ -46,8 +46,14 @@ Here's a walkthrough of implemented user stories:
 
 
 ![](Flix_OneA.gif)
+
+
 ![](Flix_TwoA.gif)
+
+
 ![](Flix_ThreeA.gif)
+
+
 ![](Flix_FourA.gif)
 
 GIF created with [Kap](https://getkap.co/).
