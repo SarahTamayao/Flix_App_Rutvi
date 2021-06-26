@@ -8,6 +8,7 @@ target 'Flix_App' do
   # Pods for Flix_App
   pod 'AFNetworking'
   pod 'SVProgressHUD'
+  pod "youtube-ios-player-helper"
 
   target 'Flix_AppTests' do
     inherit! :search_paths

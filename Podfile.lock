@@ -15,20 +15,24 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - SVProgressHUD (2.2.5)
+  - youtube-ios-player-helper (1.0.3)
 
 DEPENDENCIES:
   - AFNetworking
   - SVProgressHUD
+  - youtube-ios-player-helper
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - SVProgressHUD
+    - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  youtube-ios-player-helper: 0185c57db23c80d63d6ca11251d110abb8a4ca61
 
-PODFILE CHECKSUM: ff1a5a3aff9d2d7c760f632324e3a3f9b0007f41
+PODFILE CHECKSUM: 2ea9f223d9860fabe5ca3e23b28849c4c2447dff
 
 COCOAPODS: 1.10.1

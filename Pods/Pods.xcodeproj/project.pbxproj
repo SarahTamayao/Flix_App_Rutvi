@@ -7,96 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A1073F9AFC8B52CFD3AFEEFB7398F24A /* UIRefreshControl+AFNetworking.m */; };
-		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E405D9E9B1A3D529E6CC668D3F673CFD /* UIProgressView+AFNetworking.m */; };
-		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A62B2E627F297DCD7C60CB30F31D4E7 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61170F48F74D24DCA5FF5BF5FEE15D1B /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C5074BEFE4B756D88F8781FAE1056A /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14A02C87832438A87B5DC6F0DB90672D /* Pods-Flix_App-Flix_AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8864E0E51D0FD2EB0654CB491B972FF1 /* Pods-Flix_App-Flix_AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E95A96C4F29494EA666E8D9E16B4D9F9 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C2A1A94F19D028FFC5DB8540A428E /* UIImageView+AFNetworking.m */; };
-		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DAAD454BB021A74F83B6F4E59D82A5E /* SVProgressHUD.bundle */; };
-		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA0FB4608D3800213D14B34684658D0 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 394E0B52E66F92056F3A7BA32FEBEC4F /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E0636AFE2F28E6ED0E7292DF2532D /* AFNetworkReachabilityManager.m */; };
+		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A41E4329D20F8881711EED07F1F85C69 /* UIRefreshControl+AFNetworking.m */; };
+		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD76DF1CB0B79EAC2E07EFF169A511 /* UIProgressView+AFNetworking.m */; };
+		05DBC5A4A0411FC0868B1355180CD35D /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C8120EAE540CDC0053C76ABD1E7FFF /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AB063DD7EF94E088C0C929015D1606DC /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 766587D556B28067D6FB122A9C73F6BC /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F4F6FC711F11907430D73DE0824C9B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC3F132CC442EAB9744632B83B0E160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		14CC5630643D32F656D76AB5D9E04ED8 /* Pods-Flix_App-Flix_AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8864E0E51D0FD2EB0654CB491B972FF1 /* Pods-Flix_App-Flix_AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 71306B1FC5D28495734E839EDA3D85F4 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3888817305F54118F731E474280F7CC1 /* UIImageView+AFNetworking.m */; };
+		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85835952698A815F5F35B13E54E3CAB3 /* SVProgressHUD.bundle */; };
+		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D27FE75085AFD9F208B4DDFEB162A8ED /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D638E98FDC018DF313A02C51B259C82B /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4E9CD8BE96D135FFE7A551A807CFA /* AFNetworkReachabilityManager.m */; };
 		30D8D4786A51F3710F252E25C6E45CDA /* Pods-Flix_AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E23D875F0C707C53B5CDF75C50A7F5 /* Pods-Flix_AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADBEB557F26B9839485FB8E7DE41D4B /* SVProgressHUD.m */; };
-		38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 487E3A46E5D772572596CECA55783FFC /* UIButton+AFNetworking.m */; };
-		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 653CEEFC2938E095B87FD9BA86CA773D /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D9872173C3A0792AB0D581E91B0A96 /* AFNetworking-dummy.m */; };
-		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC28B5D274747BFF239B125BCA6EC88 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D84D17EFABFCACFFA3B512C253DFB6D /* AFAutoPurgingImageCache.m */; };
-		4BD519AA922FBEF7D5ED5E0E8F0DEC0F /* Pods-Flix_App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EECBB80986937C33345187131F70C6 /* Pods-Flix_App-dummy.m */; };
-		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C82BC36AC33A4B236E18B1BBFBBF13 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FE0F75DDB0B08239E4F864D4753293 /* Pods-Flix_App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EECBB80986937C33345187131F70C6 /* Pods-Flix_App-dummy.m */; };
+		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CB298B12FD7AD45FF6034879804C730D /* SVProgressHUD.m */; };
+		38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B92621406351F67CAEEC4C266AB34 /* UIButton+AFNetworking.m */; };
+		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EC190623A09635787A58A7596EA9198E /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDFC9478D9727A608006AD41151DC1B /* AFNetworking-dummy.m */; };
+		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 751AE3C2A5BC309E2588475C78857943 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B72C1E1CB20D39201BEE5938FD7F734D /* AFAutoPurgingImageCache.m */; };
+		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C875686D29CE0AEF4AF79FBCB617BF3B /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		558419C90B0169B1AE0AEEDFCE351662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		5922EB80F4F4A0F08B892183A533DCEE /* Pods-Flix_App-Flix_AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE681A44A43671B530E0E46FA9020165 /* Pods-Flix_App-Flix_AppUITests-dummy.m */; };
 		6D72060337954E9216B29BD3774F0DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E71B5843B4570DE841A61504B47A763 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5450DBFFBD1466A50EDB544B48C98E1E /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 860D9D02897B4EDF3115C04EA6BEC1A4 /* AFURLSessionManager.m */; };
+		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 081D718D40673E28B20DF349EC5D299F /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 129654E66B5BE621CB393AB83EC1D3E3 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E307606050341B3ADCCC3A3D31A71E /* AFURLSessionManager.m */; };
+		7D8C05366F87C046219EDCB835447400 /* youtube-ios-player-helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7E41722962AC88D70E32D37834CB39 /* youtube-ios-player-helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F52BD0341E46A6053B15014557ACB6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FE05222351B8B3E4F6D0D77FB6B8DCA9 /* AFURLResponseSerialization.m */; };
-		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6FD5DC67F43734B83B9FF4317FDF16 /* AFHTTPSessionManager.m */; };
-		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D628DA94D8406BB57B73BBD392D68B8 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7316E8699DD98584BDBB18D853D906E1 /* WKWebView+AFNetworking.m */; };
-		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30216FDC97C693AC027F8709B21930AD /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B9B9C6E8F43B882B8F38970ED0B825 /* AFNetworkActivityIndicatorManager.m */; };
-		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB053612EBBED21B60616ED5543F7C /* SVProgressHUD-dummy.m */; };
-		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0183FDD31738BB1C07D11CA4446EE70 /* AFSecurityPolicy.m */; };
-		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B04E29E42992C06E1BA7A182F943A14 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B75F69E9491476969656C93E07E8DE3 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E86DF93661A83DF35C6BBC6CEDABE75 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB8497DEDB5A840BB0A81AD9DB6214 /* SVIndefiniteAnimatedView.m */; };
-		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0500E9E83B1A57CDB906CA16EF7EE14C /* AFImageDownloader.m */; };
-		BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3BC5644A232CB0A2E34A7022789FB6 /* AFURLRequestSerialization.m */; };
-		BD7FAFA280876D5CDBF35159D5DAEF5B /* Pods-Flix_App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC5BBA8193C046FB967EE08C1CDDC6D /* Pods-Flix_App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7D9EE58161F7941183052EE95B1A1 /* AFURLResponseSerialization.m */; };
+		860D288D40F2447F7492CD4A65C3176F /* Pods-Flix_App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC5BBA8193C046FB967EE08C1CDDC6D /* Pods-Flix_App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 595199E0D05E0E56E1760C4FA410BC7A /* AFHTTPSessionManager.m */; };
+		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F19F5A5C148660308587474F32CDAB /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F015F38D9FDA1756B24A4E984184DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDEB38EA4EE6B11EB5354E12FA6C158 /* WKWebView+AFNetworking.m */; };
+		95360566E941F235D6B8CE1C4C3035D1 /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 685294AEA3A2AC35984BFE61E43823A8 /* youtube-ios-player-helper-dummy.m */; };
+		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D87F8FC010E61C9FBDC3FF08CFF0CF6 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66040B1A3C37DD2D56258B91F396F143 /* AFNetworkActivityIndicatorManager.m */; };
+		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB79F35AAB762983D1F968B8F7AEE5C /* SVProgressHUD-dummy.m */; };
+		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A003E60F12C861CFAC1B74165228D79D /* AFSecurityPolicy.m */; };
+		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E23F5B51D1B521001F36CFDB9BF0AA0 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C22822FA929E89335F959F79BD29D2 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3F41C3F88A0F4B30C16243770D4A8B6 /* Assets.bundle */; };
+		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C57DE5A7D941103F370F8E33CC9381E /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 259DCBFD37ABDC4EB792B4D549576253 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B9915F785CB47C5C07F0B698911B00 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 175CDE86C5CDF95967A6F0307616A51C /* SVIndefiniteAnimatedView.m */; };
+		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7723BB63CE5407892E7DC416E8EC7F87 /* AFImageDownloader.m */; };
+		BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B75BE92E320EA4BBF68750B33C36AC /* AFURLRequestSerialization.m */; };
 		C22DCC66CD1D4002668AFB1CE570C6DE /* Pods-Flix_AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32035ECA622229F4999F04BF7E70A8F0 /* Pods-Flix_AppTests-dummy.m */; };
-		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B64AF1CAE115F49C9562172CA91917 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1686ADA6F54EC072FBFFE7DFD6A3FE10 /* SVRadialGradientLayer.m */; };
-		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 612DE81C5EEB8B01B0183FA84F7FC155 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 366E4FD53A6402E0B0270CBBACF6D38D /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D911A10ED4EDB4305AF4BD60ECFE9D39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC238AEF5825623242CDFB601BA8A04 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 439B8B6E3B51EF6411A5E02C9ADD7054 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 096E007BF7352BBE0E9E2353CEE292E3 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF54FBC044CC3EFEC4309420EE774826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		D03B6BD25AEC918C55C1A092C4ED472B /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769940CAECC49DFEE8BD590F98C0CDBE /* YTPlayerView.m */; };
+		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EA7D4489C61199EAC10CE105678DCC /* SVRadialGradientLayer.m */; };
+		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D920790214C52061688E27159AFA04 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D71F0B1396F51CA57E4E12A22106DC39 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8793557F01C786EB76D557E4C74B610B /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B147A5576E7C7D264024A88BDBEDAD /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E28C2A4D11D0E714F957E6AEF7F92B9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */; };
-		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 97453BD2779E49FD0A354BCEE8CC3C4E /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 719E11DBD1151E9AEE61BB1C064295AD /* SVProgressAnimatedView.m */; };
-		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C279A6CBB72137DF2FD6DE493E571499 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFDD023D2ED8CF9DF6D8C8305A0516C /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7C7EE849DD3D5C2A1C092CCD1BA6F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B736075F0369985FC99CBFC765E11C5 /* UIActivityIndicatorView+AFNetworking.m */; };
+		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DF8ED94B37873ECE429E674B88594C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA83D73117F36AAE35DCE627C3ADCA13 /* Pods-Flix_App-Flix_AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE681A44A43671B530E0E46FA9020165 /* Pods-Flix_App-Flix_AppUITests-dummy.m */; };
+		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C2A440F03C12891C68AF9C26D3FC2 /* SVProgressAnimatedView.m */; };
+		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F37F92EDB343E92ABA8DF70239490E84 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 59294B1727BD8FC81579F4077231CB64 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D35918A398C2E48DD48EB53030C45DE3 /* UIActivityIndicatorView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		171A761192B5FC1E48D6A056258B095A /* PBXContainerItemProxy */ = {
+		0B5B1BA032E2512C521D292D4E7839CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41AB86B90ECAD115A14FE400303807CC;
-			remoteInfo = "Pods-Flix_App";
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
 		};
-		838635F4B0FC13C925F297F53774C6E2 /* PBXContainerItemProxy */ = {
+		12FEE1699A09F8B6EC8E1576657F2F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		7811BBA8F21FCCA49A6F204B9D7D2333 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		D3C94DC258E67F5C04BD90D8FEC5F6E0 /* PBXContainerItemProxy */ = {
+		82189AA96BC0D9882AECF9ED4B6ECE95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
+			remoteGlobalIDString = 41AB86B90ECAD115A14FE400303807CC;
+			remoteInfo = "Pods-Flix_App";
 		};
-		D5C87215445E49D3DFC27DAEA3EC4513 /* PBXContainerItemProxy */ = {
+		C08C748129DE4486C883B20DB62286DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
+			remoteGlobalIDString = D1A7AF186BE136DE56FD5699070589B8;
+			remoteInfo = "youtube-ios-player-helper";
 		};
-		F6666C2D2D84E2FF3368DE91633ECACF /* PBXContainerItemProxy */ = {
+		CFC968AADD1A9047E3DD2476F58B6765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A7AF186BE136DE56FD5699070589B8;
+			remoteInfo = "youtube-ios-player-helper";
+		};
+		FF830D020255B0C2F9E47801C05338E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -106,104 +126,115 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0500E9E83B1A57CDB906CA16EF7EE14C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		0A2C2A1A94F19D028FFC5DB8540A428E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		0B04E29E42992C06E1BA7A182F943A14 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		0B736075F0369985FC99CBFC765E11C5 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		009FA76D918B3519EB069554F470B149 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		081D718D40673E28B20DF349EC5D299F /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		096E007BF7352BBE0E9E2353CEE292E3 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0CC5BBA8193C046FB967EE08C1CDDC6D /* Pods-Flix_App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flix_App-umbrella.h"; sourceTree = "<group>"; };
+		0FA7D9EE58161F7941183052EE95B1A1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		116961F93AEFE09381BD2C9DCE65116D /* Pods_Flix_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flix_AppTests.framework; path = "Pods-Flix_AppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11B9B9C6E8F43B882B8F38970ED0B825 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		1667C20DCAAA3F7C01078A7594C7E49B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		1686ADA6F54EC072FBFFE7DFD6A3FE10 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		129654E66B5BE621CB393AB83EC1D3E3 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		14B75BE92E320EA4BBF68750B33C36AC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		169D3574D652D10092767F2C511EDDEE /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		175CDE86C5CDF95967A6F0307616A51C /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		17F4F6FC711F11907430D73DE0824C9B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		1B4B92621406351F67CAEEC4C266AB34 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		1D87F8FC010E61C9FBDC3FF08CFF0CF6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		1DCF7FB19F75B94A617C806615A49136 /* Pods-Flix_App-Flix_AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flix_App-Flix_AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E23F5B51D1B521001F36CFDB9BF0AA0 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		23C8120EAE540CDC0053C76ABD1E7FFF /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		259DCBFD37ABDC4EB792B4D549576253 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		28EECBB80986937C33345187131F70C6 /* Pods-Flix_App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flix_App-dummy.m"; sourceTree = "<group>"; };
-		2D84D17EFABFCACFFA3B512C253DFB6D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		2CCD76DF1CB0B79EAC2E07EFF169A511 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		2DFA7E9E1C6576E982B6CD56C3473D35 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		2EDEB38EA4EE6B11EB5354E12FA6C158 /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		30216FDC97C693AC027F8709B21930AD /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32035ECA622229F4999F04BF7E70A8F0 /* Pods-Flix_AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flix_AppTests-dummy.m"; sourceTree = "<group>"; };
-		366E4FD53A6402E0B0270CBBACF6D38D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		394E0B52E66F92056F3A7BA32FEBEC4F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		34D920790214C52061688E27159AFA04 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		37305F8E581A9FF5A23834F061CC8106 /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
+		3888817305F54118F731E474280F7CC1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		3BBD40C94EEFB6F3A00980849C762473 /* Pods-Flix_App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flix_App.modulemap"; sourceTree = "<group>"; };
-		3E6FD5DC67F43734B83B9FF4317FDF16 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		3E71B5843B4570DE841A61504B47A763 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		3E86DF93661A83DF35C6BBC6CEDABE75 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		3FAB8497DEDB5A840BB0A81AD9DB6214 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		439B8B6E3B51EF6411A5E02C9ADD7054 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		487E3A46E5D772572596CECA55783FFC /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		3C57DE5A7D941103F370F8E33CC9381E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3EA4E9CD8BE96D135FFE7A551A807CFA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3F23249EC11CBCDC292B6C2ACD267DD7 /* youtube-ios-player-helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.release.xcconfig"; sourceTree = "<group>"; };
 		4C918F6844B546296F6B438DEE712A3B /* Pods-Flix_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flix_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4CA0FB4608D3800213D14B34684658D0 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		4DD399F05973186853A1553529E98C10 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		4E08D7367B15CBA8EF608D787819ED6C /* Pods-Flix_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flix_AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		5450DBFFBD1466A50EDB544B48C98E1E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		56A48E6370ADCF498EEB45FB1BCA6FFE /* Pods-Flix_App-Flix_AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flix_App-Flix_AppUITests.modulemap"; sourceTree = "<group>"; };
-		5A62B2E627F297DCD7C60CB30F31D4E7 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		5ADBEB557F26B9839485FB8E7DE41D4B /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		5B75F69E9491476969656C93E07E8DE3 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		61170F48F74D24DCA5FF5BF5FEE15D1B /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		612DE81C5EEB8B01B0183FA84F7FC155 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		59294B1727BD8FC81579F4077231CB64 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		595199E0D05E0E56E1760C4FA410BC7A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		61DF8ED94B37873ECE429E674B88594C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		62424750E00D5FDCAFCEAEC140F4DBBB /* Pods-Flix_App-Flix_AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flix_App-Flix_AppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		62AAAF723D8F092BEC4ADF67B6AD6C39 /* Pods-Flix_App-Flix_AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flix_App-Flix_AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		653CEEFC2938E095B87FD9BA86CA773D /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		66040B1A3C37DD2D56258B91F396F143 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		685294AEA3A2AC35984BFE61E43823A8 /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
 		69E1E5DBCD453400849B712E174EFF37 /* Pods-Flix_AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flix_AppTests-Info.plist"; sourceTree = "<group>"; };
-		6C4E0636AFE2F28E6ED0E7292DF2532D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		6DAAD454BB021A74F83B6F4E59D82A5E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		719E11DBD1151E9AEE61BB1C064295AD /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		7316E8699DD98584BDBB18D853D906E1 /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		71306B1FC5D28495734E839EDA3D85F4 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		751AE3C2A5BC309E2588475C78857943 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		762A28857782D82A7B696278D1C2EC11 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		766587D556B28067D6FB122A9C73F6BC /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		769940CAECC49DFEE8BD590F98C0CDBE /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		7723BB63CE5407892E7DC416E8EC7F87 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		7BB79F35AAB762983D1F968B8F7AEE5C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		7BD9518BA2BC08AABA28E96A70C44DED /* Pods_Flix_App_Flix_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flix_App_Flix_AppUITests.framework; path = "Pods-Flix_App-Flix_AppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D628DA94D8406BB57B73BBD392D68B8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		7E0F8A88E492EE310EE82381C57383B7 /* Pods-Flix_App-Flix_AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flix_App-Flix_AppUITests-Info.plist"; sourceTree = "<group>"; };
-		860D9D02897B4EDF3115C04EA6BEC1A4 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		7EDFC9478D9727A608006AD41151DC1B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		80F19F5A5C148660308587474F32CDAB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8498A1B2C60117E181CA67921DDAE0B6 /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = youtube_ios_player_helper.framework; path = "youtube-ios-player-helper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855C2A440F03C12891C68AF9C26D3FC2 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		85835952698A815F5F35B13E54E3CAB3 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		8793557F01C786EB76D557E4C74B610B /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		8864E0E51D0FD2EB0654CB491B972FF1 /* Pods-Flix_App-Flix_AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flix_App-Flix_AppUITests-umbrella.h"; sourceTree = "<group>"; };
-		8ACAFC7619D9102138A19C301146B99C /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		8E59EB601992414409BC28BA0148CDEE /* Pods-Flix_App-Flix_AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flix_App-Flix_AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F7D190649BAEDF7E52129D0F127731B /* Pods-Flix_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flix_App.debug.xcconfig"; sourceTree = "<group>"; };
-		97453BD2779E49FD0A354BCEE8CC3C4E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		9CFDD023D2ED8CF9DF6D8C8305A0516C /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		8FAF3D11949D9B7D323BBEF8CCD9869B /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0C5074BEFE4B756D88F8781FAE1056A /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		A1073F9AFC8B52CFD3AFEEFB7398F24A /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		A003E60F12C861CFAC1B74165228D79D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A41E4329D20F8881711EED07F1F85C69 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7848930EAEB78104C6D4ECDBEB0D091 /* Pods-Flix_AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flix_AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2D9872173C3A0792AB0D581E91B0A96 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		A84C9075E7789D464B2C375B6BC7B2A3 /* youtube-ios-player-helper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "youtube-ios-player-helper-Info.plist"; sourceTree = "<group>"; };
+		AB063DD7EF94E088C0C929015D1606DC /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		B0AA31DAE79D84388E543A9F36401C13 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		B44A71715994C4FF32AB24247277AE77 /* Pods-Flix_AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flix_AppTests.modulemap"; sourceTree = "<group>"; };
+		B4EA7D4489C61199EAC10CE105678DCC /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		B6F09CCFB54D151EC48FE32B0BB3AA01 /* Pods_Flix_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Flix_App.framework; path = "Pods-Flix_App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB3BC5644A232CB0A2E34A7022789FB6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		BBC28B5D274747BFF239B125BCA6EC88 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		BEC238AEF5825623242CDFB601BA8A04 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		C05B217D0C5F22E6DBF31A043D8AC0EB /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		C279A6CBB72137DF2FD6DE493E571499 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		C2DB053612EBBED21B60616ED5543F7C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		C493992694174BA2519E75B2312D2CF3 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		C77B2FBAFC3F95928A9CDB121B48B658 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		B72C1E1CB20D39201BEE5938FD7F734D /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		C875686D29CE0AEF4AF79FBCB617BF3B /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		CB298B12FD7AD45FF6034879804C730D /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		CC76D85BE6EEEBF0A766088AE76014E4 /* Pods-Flix_App-Flix_AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flix_App-Flix_AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD7E41722962AC88D70E32D37834CB39 /* youtube-ios-player-helper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-umbrella.h"; sourceTree = "<group>"; };
 		CE1738F166CA9ACE1BF9C994364EDAAE /* Pods-Flix_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flix_App.release.xcconfig"; sourceTree = "<group>"; };
-		CFA7374D111FCBAE69770AFCFAB64264 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		D2C82BC36AC33A4B236E18B1BBFBBF13 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		D27FE75085AFD9F208B4DDFEB162A8ED /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		D35918A398C2E48DD48EB53030C45DE3 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		D3E307606050341B3ADCCC3A3D31A71E /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		D638E98FDC018DF313A02C51B259C82B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		D71F0B1396F51CA57E4E12A22106DC39 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		D793AC1EAE58D3A9ADC93EB1AC41057B /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		D9F08C076BCFAAB14A66C2061ADF187A /* Pods-Flix_App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flix_App-acknowledgements.plist"; sourceTree = "<group>"; };
 		DC6DFCD1EAB100E3F69C99F3BC9692E3 /* Pods-Flix_App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flix_App-frameworks.sh"; sourceTree = "<group>"; };
-		E405D9E9B1A3D529E6CC668D3F673CFD /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		E18BDF9023191EDF89E73053EEB91217 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		E3A32207D24699E524DA0279B51885B5 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		E5E39C5A630D157DD0424080FE4ACC18 /* Pods-Flix_App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flix_App-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E6E23D875F0C707C53B5CDF75C50A7F5 /* Pods-Flix_AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flix_AppTests-umbrella.h"; sourceTree = "<group>"; };
-		E95A96C4F29494EA666E8D9E16B4D9F9 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECB5E3ACB9C5EEF2012D0A7796387CBE /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		ED21575352A28250A54A08881BC3195C /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		EC190623A09635787A58A7596EA9198E /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		ECF910342798B89D6DCEB8E0B87C4DF0 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		EE681A44A43671B530E0E46FA9020165 /* Pods-Flix_App-Flix_AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flix_App-Flix_AppUITests-dummy.m"; sourceTree = "<group>"; };
-		F0183FDD31738BB1C07D11CA4446EE70 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		F5B64AF1CAE115F49C9562172CA91917 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F0E475CDEFB5AC7EF72A39449699C531 /* youtube-ios-player-helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.debug.xcconfig"; sourceTree = "<group>"; };
+		F37F92EDB343E92ABA8DF70239490E84 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		F3F41C3F88A0F4B30C16243770D4A8B6 /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
 		F60DB17154DFF8A23EF3B9CDECAAED10 /* Pods-Flix_AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flix_AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F68F14BF8E7387B3C0C771A55B14456A /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		F6B147A5576E7C7D264024A88BDBEDAD /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		FD1B8BBAB3E45992398068884B1A0E84 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		FD2B0B7188E1D3CDFA0CE2B0ECB6C0BC /* Pods-Flix_App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flix_App-Info.plist"; sourceTree = "<group>"; };
-		FE05222351B8B3E4F6D0D77FB6B8DCA9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8375891DFE7197113664A2E178DD1D22 /* Frameworks */ = {
+		5595812EFC47AA249A0B8193A0B1F932 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7C7EE849DD3D5C2A1C092CCD1BA6F60 /* Foundation.framework in Frameworks */,
+				CF54FBC044CC3EFEC4309420EE774826 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,11 +255,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D70FB23668C88BAFC5D6E269DD75DBDF /* Frameworks */ = {
+		C34449FB928A3D260B4A4241EE4A85F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D911A10ED4EDB4305AF4BD60ECFE9D39 /* Foundation.framework in Frameworks */,
+				8F015F38D9FDA1756B24A4E984184DF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8438957F9994E47C6B02BF6BFEECA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC3F132CC442EAB9744632B83B0E160 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,31 +282,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B483228D5742A21B86A7BEDC108DC4D /* Reachability */ = {
+		047EAEFAD27EB1D5CDCEAFF7DE5889CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E95A96C4F29494EA666E8D9E16B4D9F9 /* AFNetworkReachabilityManager.h */,
-				6C4E0636AFE2F28E6ED0E7292DF2532D /* AFNetworkReachabilityManager.m */,
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				B6F09CCFB54D151EC48FE32B0BB3AA01 /* Pods_Flix_App.framework */,
+				7BD9518BA2BC08AABA28E96A70C44DED /* Pods_Flix_App_Flix_AppUITests.framework */,
+				116961F93AEFE09381BD2C9DCE65116D /* Pods_Flix_AppTests.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
+				8498A1B2C60117E181CA67921DDAE0B6 /* youtube_ios_player_helper.framework */,
 			);
-			name = Reachability;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		0E761FAABB9F220C6F93D3A0494AA121 /* SVProgressHUD */ = {
+		1505364B207B113B9872A8AA19CAD49C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				30216FDC97C693AC027F8709B21930AD /* SVIndefiniteAnimatedView.h */,
-				3FAB8497DEDB5A840BB0A81AD9DB6214 /* SVIndefiniteAnimatedView.m */,
-				439B8B6E3B51EF6411A5E02C9ADD7054 /* SVProgressAnimatedView.h */,
-				719E11DBD1151E9AEE61BB1C064295AD /* SVProgressAnimatedView.m */,
-				A0C5074BEFE4B756D88F8781FAE1056A /* SVProgressHUD.h */,
-				5ADBEB557F26B9839485FB8E7DE41D4B /* SVProgressHUD.m */,
-				366E4FD53A6402E0B0270CBBACF6D38D /* SVRadialGradientLayer.h */,
-				1686ADA6F54EC072FBFFE7DFD6A3FE10 /* SVRadialGradientLayer.m */,
-				C77615487B0965D53775FA01F39A9A2C /* Resources */,
-				7ACF633E64D01634271694A12B7266EF /* Support Files */,
+				85835952698A815F5F35B13E54E3CAB3 /* SVProgressHUD.bundle */,
 			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -312,51 +345,32 @@
 			path = "Target Support Files/Pods-Flix_App";
 			sourceTree = "<group>";
 		};
-		4EBEC2CD5A22AD487AC30C3DA2D64A9F /* Serialization */ = {
+		4260833CC165F7496BB2402A5B8C2F6A /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				4CA0FB4608D3800213D14B34684658D0 /* AFURLRequestSerialization.h */,
-				BB3BC5644A232CB0A2E34A7022789FB6 /* AFURLRequestSerialization.m */,
-				7D628DA94D8406BB57B73BBD392D68B8 /* AFURLResponseSerialization.h */,
-				FE05222351B8B3E4F6D0D77FB6B8DCA9 /* AFURLResponseSerialization.m */,
+				1D87F8FC010E61C9FBDC3FF08CFF0CF6 /* SVIndefiniteAnimatedView.h */,
+				175CDE86C5CDF95967A6F0307616A51C /* SVIndefiniteAnimatedView.m */,
+				F6B147A5576E7C7D264024A88BDBEDAD /* SVProgressAnimatedView.h */,
+				855C2A440F03C12891C68AF9C26D3FC2 /* SVProgressAnimatedView.m */,
+				17F4F6FC711F11907430D73DE0824C9B /* SVProgressHUD.h */,
+				CB298B12FD7AD45FF6034879804C730D /* SVProgressHUD.m */,
+				D71F0B1396F51CA57E4E12A22106DC39 /* SVRadialGradientLayer.h */,
+				B4EA7D4489C61199EAC10CE105678DCC /* SVRadialGradientLayer.m */,
+				1505364B207B113B9872A8AA19CAD49C /* Resources */,
+				8D9005831B43C5AD6B98EEE63ACC54E9 /* Support Files */,
 			);
-			name = Serialization;
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		644F93C0A65A76D768228EFB95C1F543 /* Pods */ = {
+		47E2E06831AB009A591B396702A7E966 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF6B512F3B10CE9868777B93165FB947 /* AFNetworking */,
-				0E761FAABB9F220C6F93D3A0494AA121 /* SVProgressHUD */,
+				D423E48F55CF19B99E188B799A9C66AD /* AFNetworking */,
+				4260833CC165F7496BB2402A5B8C2F6A /* SVProgressHUD */,
+				8E11EF97693CFEF1ABB1A5F92EEC5044 /* youtube-ios-player-helper */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7740F4C563F3932C548D4FFD532A458E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
-				B6F09CCFB54D151EC48FE32B0BB3AA01 /* Pods_Flix_App.framework */,
-				7BD9518BA2BC08AABA28E96A70C44DED /* Pods_Flix_App_Flix_AppUITests.framework */,
-				116961F93AEFE09381BD2C9DCE65116D /* Pods_Flix_AppTests.framework */,
-				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7ACF633E64D01634271694A12B7266EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CFA7374D111FCBAE69770AFCFAB64264 /* SVProgressHUD.modulemap */,
-				C2DB053612EBBED21B60616ED5543F7C /* SVProgressHUD-dummy.m */,
-				8ACAFC7619D9102138A19C301146B99C /* SVProgressHUD-Info.plist */,
-				1667C20DCAAA3F7C01078A7594C7E49B /* SVProgressHUD-prefix.pch */,
-				BEC238AEF5825623242CDFB601BA8A04 /* SVProgressHUD-umbrella.h */,
-				C77B2FBAFC3F95928A9CDB121B48B658 /* SVProgressHUD.debug.xcconfig */,
-				C493992694174BA2519E75B2312D2CF3 /* SVProgressHUD.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		7E20246115D1189E0FB436D1848F40AC /* Pods-Flix_AppTests */ = {
@@ -375,6 +389,59 @@
 			path = "Target Support Files/Pods-Flix_AppTests";
 			sourceTree = "<group>";
 		};
+		8D9005831B43C5AD6B98EEE63ACC54E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0AA31DAE79D84388E543A9F36401C13 /* SVProgressHUD.modulemap */,
+				7BB79F35AAB762983D1F968B8F7AEE5C /* SVProgressHUD-dummy.m */,
+				ECF910342798B89D6DCEB8E0B87C4DF0 /* SVProgressHUD-Info.plist */,
+				762A28857782D82A7B696278D1C2EC11 /* SVProgressHUD-prefix.pch */,
+				8793557F01C786EB76D557E4C74B610B /* SVProgressHUD-umbrella.h */,
+				169D3574D652D10092767F2C511EDDEE /* SVProgressHUD.debug.xcconfig */,
+				E18BDF9023191EDF89E73053EEB91217 /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		8E11EF97693CFEF1ABB1A5F92EEC5044 /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				23C8120EAE540CDC0053C76ABD1E7FFF /* YTPlayerView.h */,
+				769940CAECC49DFEE8BD590F98C0CDBE /* YTPlayerView.m */,
+				EFC3288AE879C57935CB5178A57124C7 /* Resources */,
+				E8FB6F6B0D23BCA77EE520284E1DDF6C /* Support Files */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		905D12C0938896D20FA1E9BF3E1934D3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				081D718D40673E28B20DF349EC5D299F /* AFAutoPurgingImageCache.h */,
+				B72C1E1CB20D39201BEE5938FD7F734D /* AFAutoPurgingImageCache.m */,
+				259DCBFD37ABDC4EB792B4D549576253 /* AFImageDownloader.h */,
+				7723BB63CE5407892E7DC416E8EC7F87 /* AFImageDownloader.m */,
+				129654E66B5BE621CB393AB83EC1D3E3 /* AFNetworkActivityIndicatorManager.h */,
+				66040B1A3C37DD2D56258B91F396F143 /* AFNetworkActivityIndicatorManager.m */,
+				61DF8ED94B37873ECE429E674B88594C /* UIActivityIndicatorView+AFNetworking.h */,
+				D35918A398C2E48DD48EB53030C45DE3 /* UIActivityIndicatorView+AFNetworking.m */,
+				751AE3C2A5BC309E2588475C78857943 /* UIButton+AFNetworking.h */,
+				1B4B92621406351F67CAEEC4C266AB34 /* UIButton+AFNetworking.m */,
+				F37F92EDB343E92ABA8DF70239490E84 /* UIImageView+AFNetworking.h */,
+				3888817305F54118F731E474280F7CC1 /* UIImageView+AFNetworking.m */,
+				C875686D29CE0AEF4AF79FBCB617BF3B /* UIKit+AFNetworking.h */,
+				EC190623A09635787A58A7596EA9198E /* UIProgressView+AFNetworking.h */,
+				2CCD76DF1CB0B79EAC2E07EFF169A511 /* UIProgressView+AFNetworking.m */,
+				D638E98FDC018DF313A02C51B259C82B /* UIRefreshControl+AFNetworking.h */,
+				A41E4329D20F8881711EED07F1F85C69 /* UIRefreshControl+AFNetworking.m */,
+				AB063DD7EF94E088C0C929015D1606DC /* WKWebView+AFNetworking.h */,
+				2EDEB38EA4EE6B11EB5354E12FA6C158 /* WKWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		90C19E14442F8AE13B964538145EAFDD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,48 +452,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AEF2DD6DFE1F4E06CABFFEC9D24C3D5C /* Security */ = {
+		92D5DF903B688EF6A0AD2ED66E3E7591 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				5B75F69E9491476969656C93E07E8DE3 /* AFSecurityPolicy.h */,
-				F0183FDD31738BB1C07D11CA4446EE70 /* AFSecurityPolicy.m */,
+				3C57DE5A7D941103F370F8E33CC9381E /* AFSecurityPolicy.h */,
+				A003E60F12C861CFAC1B74165228D79D /* AFSecurityPolicy.m */,
 			);
 			name = Security;
 			sourceTree = "<group>";
 		};
-		B416C7162B2CAC43369F18709E699F2A /* NSURLSession */ = {
+		A7F51AB691099C0FB72880CD1506B494 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				9CFDD023D2ED8CF9DF6D8C8305A0516C /* AFCompatibilityMacros.h */,
-				F5B64AF1CAE115F49C9562172CA91917 /* AFHTTPSessionManager.h */,
-				3E6FD5DC67F43734B83B9FF4317FDF16 /* AFHTTPSessionManager.m */,
-				0B04E29E42992C06E1BA7A182F943A14 /* AFURLSessionManager.h */,
-				860D9D02897B4EDF3115C04EA6BEC1A4 /* AFURLSessionManager.m */,
+				71306B1FC5D28495734E839EDA3D85F4 /* AFNetworkReachabilityManager.h */,
+				3EA4E9CD8BE96D135FFE7A551A807CFA /* AFNetworkReachabilityManager.m */,
 			);
-			name = NSURLSession;
+			name = Reachability;
 			sourceTree = "<group>";
 		};
-		B90B465A45B9DD4682D32F1A938B7965 /* Support Files */ = {
+		B474A12C7FDB311C5333EF0E78A3A71E /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				ED21575352A28250A54A08881BC3195C /* AFNetworking.modulemap */,
-				B2D9872173C3A0792AB0D581E91B0A96 /* AFNetworking-dummy.m */,
-				4DD399F05973186853A1553529E98C10 /* AFNetworking-Info.plist */,
-				F68F14BF8E7387B3C0C771A55B14456A /* AFNetworking-prefix.pch */,
-				61170F48F74D24DCA5FF5BF5FEE15D1B /* AFNetworking-umbrella.h */,
-				ECB5E3ACB9C5EEF2012D0A7796387CBE /* AFNetworking.debug.xcconfig */,
-				C05B217D0C5F22E6DBF31A043D8AC0EB /* AFNetworking.release.xcconfig */,
+				D27FE75085AFD9F208B4DDFEB162A8ED /* AFURLRequestSerialization.h */,
+				14B75BE92E320EA4BBF68750B33C36AC /* AFURLRequestSerialization.m */,
+				80F19F5A5C148660308587474F32CDAB /* AFURLResponseSerialization.h */,
+				0FA7D9EE58161F7941183052EE95B1A1 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		CB353F75A5486DA7A737F5399C750FDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1B8BBAB3E45992398068884B1A0E84 /* AFNetworking.modulemap */,
+				7EDFC9478D9727A608006AD41151DC1B /* AFNetworking-dummy.m */,
+				2DFA7E9E1C6576E982B6CD56C3473D35 /* AFNetworking-Info.plist */,
+				E3A32207D24699E524DA0279B51885B5 /* AFNetworking-prefix.pch */,
+				766587D556B28067D6FB122A9C73F6BC /* AFNetworking-umbrella.h */,
+				D793AC1EAE58D3A9ADC93EB1AC41057B /* AFNetworking.debug.xcconfig */,
+				009FA76D918B3519EB069554F470B149 /* AFNetworking.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		C77615487B0965D53775FA01F39A9A2C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6DAAD454BB021A74F83B6F4E59D82A5E /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -434,25 +501,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				644F93C0A65A76D768228EFB95C1F543 /* Pods */,
-				7740F4C563F3932C548D4FFD532A458E /* Products */,
+				47E2E06831AB009A591B396702A7E966 /* Pods */,
+				047EAEFAD27EB1D5CDCEAFF7DE5889CB /* Products */,
 				90C19E14442F8AE13B964538145EAFDD /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF6B512F3B10CE9868777B93165FB947 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				612DE81C5EEB8B01B0183FA84F7FC155 /* AFNetworking.h */,
-				B416C7162B2CAC43369F18709E699F2A /* NSURLSession */,
-				0B483228D5742A21B86A7BEDC108DC4D /* Reachability */,
-				AEF2DD6DFE1F4E06CABFFEC9D24C3D5C /* Security */,
-				4EBEC2CD5A22AD487AC30C3DA2D64A9F /* Serialization */,
-				B90B465A45B9DD4682D32F1A938B7965 /* Support Files */,
-				ED72F70C2E5ACCA17A210AEEDC3113AE /* UIKit */,
-			);
-			name = AFNetworking;
-			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		D325A42620E7427FB70FB046C7B7B240 /* iOS */ = {
@@ -464,40 +516,64 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		ED72F70C2E5ACCA17A210AEEDC3113AE /* UIKit */ = {
+		D423E48F55CF19B99E188B799A9C66AD /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				3E71B5843B4570DE841A61504B47A763 /* AFAutoPurgingImageCache.h */,
-				2D84D17EFABFCACFFA3B512C253DFB6D /* AFAutoPurgingImageCache.m */,
-				3E86DF93661A83DF35C6BBC6CEDABE75 /* AFImageDownloader.h */,
-				0500E9E83B1A57CDB906CA16EF7EE14C /* AFImageDownloader.m */,
-				5450DBFFBD1466A50EDB544B48C98E1E /* AFNetworkActivityIndicatorManager.h */,
-				11B9B9C6E8F43B882B8F38970ED0B825 /* AFNetworkActivityIndicatorManager.m */,
-				97453BD2779E49FD0A354BCEE8CC3C4E /* UIActivityIndicatorView+AFNetworking.h */,
-				0B736075F0369985FC99CBFC765E11C5 /* UIActivityIndicatorView+AFNetworking.m */,
-				BBC28B5D274747BFF239B125BCA6EC88 /* UIButton+AFNetworking.h */,
-				487E3A46E5D772572596CECA55783FFC /* UIButton+AFNetworking.m */,
-				C279A6CBB72137DF2FD6DE493E571499 /* UIImageView+AFNetworking.h */,
-				0A2C2A1A94F19D028FFC5DB8540A428E /* UIImageView+AFNetworking.m */,
-				D2C82BC36AC33A4B236E18B1BBFBBF13 /* UIKit+AFNetworking.h */,
-				653CEEFC2938E095B87FD9BA86CA773D /* UIProgressView+AFNetworking.h */,
-				E405D9E9B1A3D529E6CC668D3F673CFD /* UIProgressView+AFNetworking.m */,
-				394E0B52E66F92056F3A7BA32FEBEC4F /* UIRefreshControl+AFNetworking.h */,
-				A1073F9AFC8B52CFD3AFEEFB7398F24A /* UIRefreshControl+AFNetworking.m */,
-				5A62B2E627F297DCD7C60CB30F31D4E7 /* WKWebView+AFNetworking.h */,
-				7316E8699DD98584BDBB18D853D906E1 /* WKWebView+AFNetworking.m */,
+				34D920790214C52061688E27159AFA04 /* AFNetworking.h */,
+				D7B5D404129DEF706CBC2F3493762711 /* NSURLSession */,
+				A7F51AB691099C0FB72880CD1506B494 /* Reachability */,
+				92D5DF903B688EF6A0AD2ED66E3E7591 /* Security */,
+				B474A12C7FDB311C5333EF0E78A3A71E /* Serialization */,
+				CB353F75A5486DA7A737F5399C750FDF /* Support Files */,
+				905D12C0938896D20FA1E9BF3E1934D3 /* UIKit */,
 			);
-			name = UIKit;
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		D7B5D404129DEF706CBC2F3493762711 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				59294B1727BD8FC81579F4077231CB64 /* AFCompatibilityMacros.h */,
+				096E007BF7352BBE0E9E2353CEE292E3 /* AFHTTPSessionManager.h */,
+				595199E0D05E0E56E1760C4FA410BC7A /* AFHTTPSessionManager.m */,
+				1E23F5B51D1B521001F36CFDB9BF0AA0 /* AFURLSessionManager.h */,
+				D3E307606050341B3ADCCC3A3D31A71E /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		E8FB6F6B0D23BCA77EE520284E1DDF6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37305F8E581A9FF5A23834F061CC8106 /* youtube-ios-player-helper.modulemap */,
+				685294AEA3A2AC35984BFE61E43823A8 /* youtube-ios-player-helper-dummy.m */,
+				A84C9075E7789D464B2C375B6BC7B2A3 /* youtube-ios-player-helper-Info.plist */,
+				8FAF3D11949D9B7D323BBEF8CCD9869B /* youtube-ios-player-helper-prefix.pch */,
+				CD7E41722962AC88D70E32D37834CB39 /* youtube-ios-player-helper-umbrella.h */,
+				F0E475CDEFB5AC7EF72A39449699C531 /* youtube-ios-player-helper.debug.xcconfig */,
+				3F23249EC11CBCDC292B6C2ACD267DD7 /* youtube-ios-player-helper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		EFC3288AE879C57935CB5178A57124C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3F41C3F88A0F4B30C16243770D4A8B6 /* Assets.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		379503C508C33926918C657B9BEB7852 /* Headers */ = {
+		11B1F62B46506C15C73D389A6B76A708 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A02C87832438A87B5DC6F0DB90672D /* Pods-Flix_App-Flix_AppUITests-umbrella.h in Headers */,
+				860D288D40F2447F7492CD4A65C3176F /* Pods-Flix_App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +594,23 @@
 				DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */,
 				0CA80ED7E59E6BCE64CEEE649A3C6D2F /* SVProgressHUD.h in Headers */,
 				D87B2D5ED73534ACF97CE0A52FA18AE4 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2007A1DAA01F868CB88190F97BDC701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CC5630643D32F656D76AB5D9E04ED8 /* Pods-Flix_App-Flix_AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D9B7803829D42680BA215A141625F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C05366F87C046219EDCB835447400 /* youtube-ios-player-helper-umbrella.h in Headers */,
+				05DBC5A4A0411FC0868B1355180CD35D /* YTPlayerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,14 +637,6 @@
 				3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */,
 				2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */,
 				07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBEE9BE9D3B1D980BE50A2D0B0261000 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD7FAFA280876D5CDBF35159D5DAEF5B /* Pods-Flix_App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,18 +681,19 @@
 		};
 		35F0F5B5FFF38C44960C66E6BC76701F /* Pods-Flix_App-Flix_AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 659F6B119E5FE4A49F8D7F617BF63916 /* Build configuration list for PBXNativeTarget "Pods-Flix_App-Flix_AppUITests" */;
+			buildConfigurationList = AA69D28981E96ED2EBC5D52D9F24FAFC /* Build configuration list for PBXNativeTarget "Pods-Flix_App-Flix_AppUITests" */;
 			buildPhases = (
-				379503C508C33926918C657B9BEB7852 /* Headers */,
-				75F05DCD4698CB56F0CA2BBD394FE9D1 /* Sources */,
-				D70FB23668C88BAFC5D6E269DD75DBDF /* Frameworks */,
-				D220A1B1C419121D92215774C63CB979 /* Resources */,
+				A2007A1DAA01F868CB88190F97BDC701 /* Headers */,
+				9275BFC51C61768FA80A19EAA04FECEC /* Sources */,
+				C8438957F9994E47C6B02BF6BFEECA5B /* Frameworks */,
+				0261843E44CA3C01A32F93E5327B6A7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4A40BECE5E57086FC5C53E28C6A01486 /* PBXTargetDependency */,
-				E55CDB8B98E3E0BB97102335C47814E1 /* PBXTargetDependency */,
+				F74AEF5B16A1D8EA616A36D3FCBE9C3C /* PBXTargetDependency */,
+				610427B7FDC412ACF34C17E18FCBFB0A /* PBXTargetDependency */,
+				11AB11A6EAC77FBD42DB01FBE02B1ED2 /* PBXTargetDependency */,
 			);
 			name = "Pods-Flix_App-Flix_AppUITests";
 			productName = "Pods-Flix_App-Flix_AppUITests";
@@ -616,22 +702,41 @@
 		};
 		41AB86B90ECAD115A14FE400303807CC /* Pods-Flix_App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1899A3F8F087EA25F5AC8A27E4FDFD /* Build configuration list for PBXNativeTarget "Pods-Flix_App" */;
+			buildConfigurationList = E08C64ADB51926D1AC17C7D10F4EE67A /* Build configuration list for PBXNativeTarget "Pods-Flix_App" */;
 			buildPhases = (
-				BBEE9BE9D3B1D980BE50A2D0B0261000 /* Headers */,
-				5BF1AC9C863EEAA46335E0D29BE097E3 /* Sources */,
-				8375891DFE7197113664A2E178DD1D22 /* Frameworks */,
-				EEC156C5511945B37C969E2F14A6FA2B /* Resources */,
+				11B1F62B46506C15C73D389A6B76A708 /* Headers */,
+				8E9DD8036B516042EF5763CBCC3FDB18 /* Sources */,
+				C34449FB928A3D260B4A4241EE4A85F4 /* Frameworks */,
+				B849206A4584B16D59A2C3F8AE8C0D43 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0D7B43C997945D7C54D9AFAC4A6BC87E /* PBXTargetDependency */,
-				719D78430466EC516D9A85DDBA9BF2C4 /* PBXTargetDependency */,
+				914E3F202D4482CB4FE4D44DDC1F702C /* PBXTargetDependency */,
+				4AF107779F7A82A00E208264BE6E4C62 /* PBXTargetDependency */,
+				DA1AC3EB9465F70B26C378A2B07430BA /* PBXTargetDependency */,
 			);
 			name = "Pods-Flix_App";
 			productName = "Pods-Flix_App";
 			productReference = B6F09CCFB54D151EC48FE32B0BB3AA01 /* Pods_Flix_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20122DD765B62B4CDEF3E8EF198B58FD /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
+			buildPhases = (
+				A3D9B7803829D42680BA215A141625F6 /* Headers */,
+				1D0FE5D1FA457436D50E3286E7C355B5 /* Sources */,
+				5595812EFC47AA249A0B8193A0B1F932 /* Frameworks */,
+				5D870BFFEC56FA6BCB0BD3F7C619A53D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = 8498A1B2C60117E181CA67921DDAE0B6 /* youtube_ios_player_helper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E09BEFC2A889D416866A4C2783271655 /* Pods-Flix_AppTests */ = {
@@ -646,7 +751,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				32E2604274F11036857639F78FFA2A7A /* PBXTargetDependency */,
+				E0FD956FB9DC7DE400CEF778D67359E8 /* PBXTargetDependency */,
 			);
 			name = "Pods-Flix_AppTests";
 			productName = "Pods-Flix_AppTests";
@@ -671,7 +776,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7740F4C563F3932C548D4FFD532A458E /* Products */;
+			productRefGroup = 047EAEFAD27EB1D5CDCEAFF7DE5889CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -680,11 +785,19 @@
 				35F0F5B5FFF38C44960C66E6BC76701F /* Pods-Flix_App-Flix_AppUITests */,
 				E09BEFC2A889D416866A4C2783271655 /* Pods-Flix_AppTests */,
 				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
+				D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0261843E44CA3C01A32F93E5327B6A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43FFDE5487E2F25981E39A56698C6CEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -699,6 +812,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D870BFFEC56FA6BCB0BD3F7C619A53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C22822FA929E89335F959F79BD29D2 /* Assets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BB2E885B360CCC1AEF0C191542BA06E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -707,14 +828,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D220A1B1C419121D92215774C63CB979 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEC156C5511945B37C969E2F14A6FA2B /* Resources */ = {
+		B849206A4584B16D59A2C3F8AE8C0D43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -724,11 +838,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5BF1AC9C863EEAA46335E0D29BE097E3 /* Sources */ = {
+		1D0FE5D1FA457436D50E3286E7C355B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD519AA922FBEF7D5ED5E0E8F0DEC0F /* Pods-Flix_App-dummy.m in Sources */,
+				95360566E941F235D6B8CE1C4C3035D1 /* youtube-ios-player-helper-dummy.m in Sources */,
+				D03B6BD25AEC918C55C1A092C4ED472B /* YTPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,11 +870,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75F05DCD4698CB56F0CA2BBD394FE9D1 /* Sources */ = {
+		8E9DD8036B516042EF5763CBCC3FDB18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5922EB80F4F4A0F08B892183A533DCEE /* Pods-Flix_App-Flix_AppUITests-dummy.m in Sources */,
+				31FE0F75DDB0B08239E4F864D4753293 /* Pods-Flix_App-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,6 +883,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22DCC66CD1D4002668AFB1CE570C6DE /* Pods-Flix_AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9275BFC51C61768FA80A19EAA04FECEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA83D73117F36AAE35DCE627C3ADCA13 /* Pods-Flix_App-Flix_AppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,42 +909,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D7B43C997945D7C54D9AFAC4A6BC87E /* PBXTargetDependency */ = {
+		11AB11A6EAC77FBD42DB01FBE02B1ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */;
+			targetProxy = C08C748129DE4486C883B20DB62286DB /* PBXContainerItemProxy */;
+		};
+		4AF107779F7A82A00E208264BE6E4C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 12FEE1699A09F8B6EC8E1576657F2F0C /* PBXContainerItemProxy */;
+		};
+		610427B7FDC412ACF34C17E18FCBFB0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 0B5B1BA032E2512C521D292D4E7839CC /* PBXContainerItemProxy */;
+		};
+		914E3F202D4482CB4FE4D44DDC1F702C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = F6666C2D2D84E2FF3368DE91633ECACF /* PBXContainerItemProxy */;
+			targetProxy = FF830D020255B0C2F9E47801C05338E5 /* PBXContainerItemProxy */;
 		};
-		32E2604274F11036857639F78FFA2A7A /* PBXTargetDependency */ = {
+		DA1AC3EB9465F70B26C378A2B07430BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = D1A7AF186BE136DE56FD5699070589B8 /* youtube-ios-player-helper */;
+			targetProxy = CFC968AADD1A9047E3DD2476F58B6765 /* PBXContainerItemProxy */;
+		};
+		E0FD956FB9DC7DE400CEF778D67359E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Flix_App";
 			target = 41AB86B90ECAD115A14FE400303807CC /* Pods-Flix_App */;
-			targetProxy = 171A761192B5FC1E48D6A056258B095A /* PBXContainerItemProxy */;
+			targetProxy = 82189AA96BC0D9882AECF9ED4B6ECE95 /* PBXContainerItemProxy */;
 		};
-		4A40BECE5E57086FC5C53E28C6A01486 /* PBXTargetDependency */ = {
+		F74AEF5B16A1D8EA616A36D3FCBE9C3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 838635F4B0FC13C925F297F53774C6E2 /* PBXContainerItemProxy */;
-		};
-		719D78430466EC516D9A85DDBA9BF2C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = D3C94DC258E67F5C04BD90D8FEC5F6E0 /* PBXContainerItemProxy */;
-		};
-		E55CDB8B98E3E0BB97102335C47814E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = D5C87215445E49D3DFC27DAEA3EC4513 /* PBXContainerItemProxy */;
+			targetProxy = 7811BBA8F21FCCA49A6F204B9D7D2333 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0B2F735A9D1D75E19CE9546C924E18EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C493992694174BA2519E75B2312D2CF3 /* SVProgressHUD.release.xcconfig */;
+			baseConfigurationReference = E18BDF9023191EDF89E73053EEB91217 /* SVProgressHUD.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -890,9 +1025,82 @@
 			};
 			name = Debug;
 		};
+		4A775A88AEE0FB099EF7B81E91318708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F23249EC11CBCDC292B6C2ACD267DD7 /* youtube-ios-player-helper.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ED7A31AB724BD3D96B16535016A83D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCF7FB19F75B94A617C806615A49136 /* Pods-Flix_App-Flix_AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flix_App-Flix_AppUITests/Pods-Flix_App-Flix_AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flix_App-Flix_AppUITests/Pods-Flix_App-Flix_AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		61DE29B3F694722C6F7894874AE7F727 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C77B2FBAFC3F95928A9CDB121B48B658 /* SVProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 169D3574D652D10092767F2C511EDDEE /* SVProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -925,7 +1133,7 @@
 		};
 		8AE891B0D2CD18CCAA4308A850FCFC79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C05B217D0C5F22E6DBF31A043D8AC0EB /* AFNetworking.release.xcconfig */;
+			baseConfigurationReference = 009FA76D918B3519EB069554F470B149 /* AFNetworking.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -950,6 +1158,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		979D44B658863523551A99B8305AC6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1738F166CA9ACE1BF9C994364EDAAE /* Pods-Flix_App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -995,9 +1241,9 @@
 			};
 			name = Release;
 		};
-		B02208C861C4C58A7585D8D8AE4053E7 /* Debug */ = {
+		B7F9145518FD8C4230B09375CAB9C26B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E59EB601992414409BC28BA0148CDEE /* Pods-Flix_App-Flix_AppUITests.debug.xcconfig */;
+			baseConfigurationReference = 8F7D190649BAEDF7E52129D0F127731B /* Pods-Flix_App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1009,7 +1255,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Flix_App-Flix_AppUITests/Pods-Flix_App-Flix_AppUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1018,7 +1264,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flix_App-Flix_AppUITests/Pods-Flix_App-Flix_AppUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1098,9 +1344,43 @@
 			};
 			name = Debug;
 		};
+		C4B1574BF0B23C17B9F85A10ED7580F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E475CDEFB5AC7EF72A39449699C531 /* youtube-ios-player-helper.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				PRODUCT_MODULE_NAME = youtube_ios_player_helper;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C5AF8D69ED4F8916D3467C2AF1EF4711 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECB5E3ACB9C5EEF2012D0A7796387CBE /* AFNetworking.debug.xcconfig */;
+			baseConfigurationReference = D793AC1EAE58D3A9ADC93EB1AC41057B /* AFNetworking.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1193,9 +1473,9 @@
 			};
 			name = Release;
 		};
-		CF36CB4CEC7E197887D261D72A034E5C /* Release */ = {
+		FCDC700473316B4CAA25144CFC446592 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCF7FB19F75B94A617C806615A49136 /* Pods-Flix_App-Flix_AppUITests.release.xcconfig */;
+			baseConfigurationReference = 8E59EB601992414409BC28BA0148CDEE /* Pods-Flix_App-Flix_AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1225,90 +1505,23 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D8184AD377C9FB67BAE08FE0E7CECF66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F7D190649BAEDF7E52129D0F127731B /* Pods-Flix_App.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E27ABFA7BB5A1498F9FC4826618B2C33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE1738F166CA9ACE1BF9C994364EDAAE /* Pods-Flix_App.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flix_App/Pods-Flix_App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20122DD765B62B4CDEF3E8EF198B58FD /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B1574BF0B23C17B9F85A10ED7580F2 /* Debug */,
+				4A775A88AEE0FB099EF7B81E91318708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1318,20 +1531,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		659F6B119E5FE4A49F8D7F617BF63916 /* Build configuration list for PBXNativeTarget "Pods-Flix_App-Flix_AppUITests" */ = {
+		AA69D28981E96ED2EBC5D52D9F24FAFC /* Build configuration list for PBXNativeTarget "Pods-Flix_App-Flix_AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B02208C861C4C58A7585D8D8AE4053E7 /* Debug */,
-				CF36CB4CEC7E197887D261D72A034E5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A1899A3F8F087EA25F5AC8A27E4FDFD /* Build configuration list for PBXNativeTarget "Pods-Flix_App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8184AD377C9FB67BAE08FE0E7CECF66 /* Debug */,
-				E27ABFA7BB5A1498F9FC4826618B2C33 /* Release */,
+				FCDC700473316B4CAA25144CFC446592 /* Debug */,
+				4ED7A31AB724BD3D96B16535016A83D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1341,6 +1545,15 @@
 			buildConfigurations = (
 				C5AF8D69ED4F8916D3467C2AF1EF4711 /* Debug */,
 				8AE891B0D2CD18CCAA4308A850FCFC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08C64ADB51926D1AC17C7D10F4EE67A /* Build configuration list for PBXNativeTarget "Pods-Flix_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F9145518FD8C4230B09375CAB9C26B /* Debug */,
+				979D44B658863523551A99B8305AC6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
