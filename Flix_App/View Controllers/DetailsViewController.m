@@ -31,11 +31,13 @@
     NSURL *posterURL = [NSURL URLWithString:fullPosterURLString];
     [self.posterView setImageWithURL:posterURL];
     //to load backdrop
-    NSString *backdropURLString = self.movie[@"backdrop_path"];
-    NSString *fullBackdropURLString = [baseURLString stringByAppendingString:backdropURLString];
-    
-    NSURL *backdropURL = [NSURL URLWithString:fullBackdropURLString];
-    [self.backdropView setImageWithURL:backdropURL];
+    if(self.movie[@"backdrop_path"] != [NSNull null]){
+        NSString *backdropURLString = self.movie[@"backdrop_path"];
+        NSString *fullBackdropURLString = [baseURLString stringByAppendingString:backdropURLString];
+        
+        NSURL *backdropURL = [NSURL URLWithString:fullBackdropURLString];
+        [self.backdropView setImageWithURL:backdropURL];
+    }
     
     //rest of the properties
     self.titleLabel.text = self.movie[@"title"];

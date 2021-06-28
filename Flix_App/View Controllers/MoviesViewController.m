@@ -31,6 +31,7 @@
     [self.refreshControl addTarget:self action:@selector(fetchMovies) forControlEvents:UIControlEventValueChanged];
     
     [self.tableView insertSubview:self.refreshControl atIndex: 0];
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
     
     
     
@@ -38,7 +39,7 @@
 
 -(void) fetchMovies{
     [SVProgressHUD show];
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Cannot Get Movies" message:@"The internet connectino appears to be offline" preferredStyle:(UIAlertControllerStyleAlert)];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Cannot Get Movies" message:@"The internet connection appears to be offline" preferredStyle:(UIAlertControllerStyleAlert)];
     UIAlertAction *tryAgain = [UIAlertAction actionWithTitle:@"Try Again" style:(UIAlertActionStyleCancel) handler:^(UIAlertAction *_Nonnull action){
         [self fetchMovies];
     }];

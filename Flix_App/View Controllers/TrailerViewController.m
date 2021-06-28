@@ -39,7 +39,9 @@
                NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
                self.trailers = dataDictionary[@"results"];
                NSDictionary *specific = self.trailers[self.trailers.count - 1];
-               [self.playerView loadWithVideoId:specific[@"key"]];
+               if(specific[@"key"] != [NSNull null]){
+                   [self.playerView loadWithVideoId:specific[@"key"]];
+               }
                
            }
        }];
