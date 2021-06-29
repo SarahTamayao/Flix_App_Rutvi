@@ -45,10 +45,10 @@ Please list two areas of the assignment you'd like to **discuss further with you
 Here's a walkthrough of implemented user stories:
 
 
-![](Flix_OneA.gif)
+![](Flix_one.gif)
 
 
-![](Flix_TwoA.gif)
+![](Flix_Two.gif)
 
 
 ![](Flix_ThreeA.gif)
