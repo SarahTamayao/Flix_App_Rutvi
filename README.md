@@ -51,7 +51,7 @@ Here's a walkthrough of implemented user stories:
 ![](Flix_Two.gif)
 
 
-![](Flix_ThreeA.gif)
+![](Flix_Three.gif)
 
 
 ![](Flix_FourA.gif)
