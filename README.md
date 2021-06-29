@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 - [ ] Customize the selection effect of the cell.
 - [x] Customize the navigation bar.
 - [x] Customize the UI.
-- [ ] User can view the app on various device sizes and orientations.
+- [x] User can view the app on various device sizes and orientations.
 - [x] Run your app on a real device.
 
 The following **additional** features are implemented:
@@ -34,6 +34,7 @@ The following **additional** features are implemented:
 - [x] User can view movie ratings
 - [x] User can view the trailer of the movie in the app
 - [x] User can determine which movie they last selected on the 'Now Playing' tab
+- [x] User can view similar movies when they click on a specific movie cell
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
